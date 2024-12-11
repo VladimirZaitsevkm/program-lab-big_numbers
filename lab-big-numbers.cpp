@@ -6,7 +6,7 @@ using namespace std;
 
 
 string removeLeadingZeros(const string& str) {
-	size_t i = 0;
+	int i = 0;
 	while (i < str.size() && str[i] == '0') {
 		i++;
 	}
